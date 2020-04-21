@@ -49,7 +49,7 @@
 
 #define LAST_PASS_MAX_SHOWN_LENGTH 256
 
-unsigned char *default_charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+unsigned char *default_charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 unsigned char *filename = NULL, *dictionary_file = NULL, *state_file = NULL;
 wchar_t *charset = NULL, *prefix = NULL, *suffix = NULL;
 unsigned int charset_len, min_len = 1, max_len = 8, prefix_len = 0, suffix_len = 0;
